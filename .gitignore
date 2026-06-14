@@ -1,0 +1,8 @@
+# 執行期暫存
+news/today.json
+logs/
+
+# 備份 / 工具
+*.bak
+*.bak2
+.playwright-mcp/
