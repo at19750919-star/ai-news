@@ -1,28 +1,64 @@
+// AI 工具日報 — 每日資料檔（由排程自動更新）
+// 格式：每個物件代表一天，newest first
+// 所有歷史資料均永久保留
 const AI_NEWS_DATA = [
   {
-    "date": "2026-06-14",
-    "weekday": "週日",
+    "date": "2026-06-15",
+    "weekday": "星期一",
     "stats": {
-      "claude": 0,
-      "openai": 1,
+      "claude": 2,
+      "openai": 2,
       "gemini": 0,
       "grok": 0,
-      "news": 2,
-      "hf": 3,
-      "gh": 3
+      "news": 5
     },
-    "claude": [],
+    "claude": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNXJJQXNGZWM1d1VmMVRfOFZlYU9VUFcwdm03RFhDRE5uajJOY19mbUQ5ZVpXYW9IOWhzd3JOS3F2c0xIdFRYVUgtZF9RVVI1VW1KVExGb0RVRDBWdlpNTXN1cTA?oc=5",
+        "source": "Anthropic",
+        "sub": "feature",
+        "published": "2026-06-09",
+        "title": "Claude Fable 5 和 Mythos 5 正式發佈",
+        "desc": "Anthropic 推出新一代 Claude Fable 5 和 Mythos 5 模型，提供更強大的推理能力和多模態處理，為企業級AI應用帶來突破性進展，能處理複雜的分析任務和創意工作。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://medium.com/@automation.labs/claude-code-now-shows-which-plugin-is-burning-tokens-f9e01e3a0d82?source=rss------ai_tools-5",
+        "source": "Medium",
+        "sub": "feature",
+        "published": "2026-06-14",
+        "title": "Claude Code 新增 Token 用量透明化功能",
+        "desc": "Claude Code 現在可以顯示哪個插件正在消耗 Token，讓開發者能精準掌控成本，優化AI工具使用效率，避免不必要的 Token 浪費。",
+        "tags": [
+          "tool",
+          "tutorial"
+        ]
+      }
+    ],
     "openai": [
       {
-        "sub": "codex",
-        "title": "OpenAI 更新 Codex：可累積重設額度，還能用邀請換額度",
-        "desc": "OpenAI 在 2026-06-11 的 ChatGPT release notes 補上 Codex 更新。Plus 與 Pro 用戶現在可保留重設額度，首波還有一次免費重設；另外可在 Codex 內邀請同事或朋友，對方送出第一則 Codex 訊息後，雙方都會拿到可在 30 天內使用的額度。對重度使用者來說，這是直接影響日常工作流的實用更新。",
-        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "source": "OpenAI Help Center",
+        "url": "https://openai.com/index/introducing-openai-partner-network",
+        "source": "OpenAI",
+        "sub": "feature",
+        "published": "2026-06-14",
+        "title": "OpenAI 推出合作夥伴網絡計畫",
+        "desc": "OpenAI 正式啟動 Partner Network，整合生態系夥伴資源，為企業提供完整的AI解決方案，包含諮詢、部署和客製化服務，加速AI技術商業化應用。",
         "tags": [
-          "openai",
-          "codex",
-          "chatgpt"
+          "integration"
+        ]
+      },
+      {
+        "url": "https://medium.com/@m16607556/8-chatgpt-prompts-that-can-save-busy-professionals-hours-every-week-e7143614e91b?source=rss------chatgpt-5",
+        "source": "Medium",
+        "sub": "tutorial",
+        "published": "2026-06-14",
+        "title": "8個 ChatGPT 提示詞讓職場人士每週省下數小時",
+        "desc": "分享8個實用的 ChatGPT 提示詞範本，涵蓋電子郵件撰寫、會議總結、報告生成等常見職場任務，提供具體可複製的指令格式，立即提升工作效率。",
+        "tags": [
+          "tutorial",
+          "tool"
         ]
       }
     ],
@@ -30,107 +66,164 @@ const AI_NEWS_DATA = [
     "grok": [],
     "news": [
       {
-        "sub": "media-zh",
-        "title": "INSIDE 整理 Safari 新 AI 功能：分頁監控、自然語言做擴充、自動整理分頁",
-        "desc": "INSIDE 用繁中整理 WWDC 2026 的 Safari AI 更新，重點不是商業消息，而是三個可直接理解的新工作流：讓瀏覽器在背景追蹤頁面變化、把一堆分頁自動分群，以及用自然語言產生瀏覽器擴充功能。這則很適合拿來快速判斷 Safari 是否開始變成可執行任務的資訊代理。",
-        "url": "https://www.inside.com.tw/article/41495-safari-wwdc-2026-three-ai-updates-notify-me",
-        "source": "INSIDE",
+        "url": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-06-11",
+        "title": "GitHub Agentic Workflows 開放公開預覽",
+        "desc": "GitHub 推出 Agentic Workflows 功能，允許開發者建立自動化的AI工作流程，可串接多個服務和API，實現智慧化的開發流程自動化，提升團隊協作效率。",
         "tags": [
-          "safari",
-          "apple-intelligence",
-          "workflow"
+          "agent",
+          "integration"
         ]
       },
       {
-        "sub": "youtube-zh",
-        "title": "中文影片：Chrome 內建 Gemini 全攻略，從 AI 繪圖到自動化行程安排",
-        "desc": "這支華語教學影片聚焦 Chrome 內建 Gemini 的實際用法，重點不是介紹名詞，而是示範怎麼把瀏覽器內建 AI 拿來做查詢、整理、繪圖與行程工作流。若你想看中文實作再決定要不要把 Chrome AI 納入日常流程，這支很適合先看。",
-        "url": "https://www.youtube.com/watch?v=Kv0OIIbCbzU",
-        "source": "YouTube",
+        "url": "https://cursor.com/changelog/bugbot-updates-june-2026",
+        "source": "Cursor",
+        "sub": "feature",
+        "published": "2026-06-10",
+        "title": "Cursor Bugbot 大幅優化：快3倍、省22%成本",
+        "desc": "Cursor 的 Bugbot 功能獲得重大升級，執行速度提升3倍，成本降低22%，同時找出的錯誤數量增加10%，為開發者提供更高效的程式碼審查體驗。",
         "tags": [
-          "youtube",
-          "中文教學",
-          "gemini",
-          "chrome"
+          "tool"
+        ]
+      },
+      {
+        "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-06-12",
+        "title": "Copilot 程式碼審查新增設定和控制選項",
+        "desc": "GitHub Copilot 程式碼審查功能推出新的配置選項，讓開發者能自訂審查標準、設定團隊規範，並控制AI建議的詳細程度，打造符合專案需求的程式碼品質檢查。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@SuriNaren/under-the-hood-of-structured-outputs-how-logit-masking-guarantees-zero-hallucination-ai-tools-e7cd35dd438b?source=rss------ai_tools-5",
+        "source": "Medium",
+        "sub": "tutorial",
+        "published": "2026-06-14",
+        "title": "結構化輸出深度解析：Logit Masking 如何杜絕AI幻覺",
+        "desc": "技術深度解析 Logit Masking 機制如何確保AI工具零幻覺輸出，包含實作原理、程式碼範例和實際應用場景，讓開發者了解如何建構可靠的AI應用。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@info.booststash/four-apis-one-person-a-saas-that-actually-makes-money-in-2026-2529e99bd3e0?source=rss------ai_tools-5",
+        "source": "Medium",
+        "sub": "tutorial",
+        "published": "2026-06-14",
+        "title": "四個API打造單人盈利SaaS：2026實戰指南",
+        "desc": "詳細分享如何運用4個API建立實際營利的SaaS服務，包含具體的技術架構、整合流程和商業模式設計，提供完整的一人創業實作指南。",
+        "tags": [
+          "tutorial",
+          "integration"
         ]
       }
     ],
-    "hf": [
+    "skipped": "融資併購新聞 5則、空泛趨勢討論 15則、純公司新聞 8則、無具體操作內容的教學文 25則、非中文相關或標題不明確的文章 15則"
+  },
+  {
+    "date": "2026-06-14",
+    "weekday": "星期日",
+    "stats": {
+      "claude": 0,
+      "openai": 2,
+      "gemini": 1,
+      "grok": 0,
+      "news": 4
+    },
+    "claude": [],
+    "openai": [
       {
-        "sub": "code-review",
-        "title": "Hugging Face 推出 Serge：可直接掛進 GitHub PR 流程的 AI code review",
-        "desc": "Serge 是 Hugging Face 在 2026-06-12 發出的新開源工具，設計重點是不要另建一套審查平台，而是直接吃 GitHub pull request、遵守 repo 自己的 review policy，並可選擇 GitHub Action、GitHub App 或人工審核版 web app 三種模式。對想在既有 PR 流程加上 AI reviewer 的團隊，這是今天最值得試的實作型工具之一。",
-        "url": "https://huggingface.co/blog/huggingface/serge",
-        "source": "Hugging Face",
+        "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+        "source": "OpenAI",
+        "sub": "feature",
+        "published": "2026-06-12",
+        "title": "OpenAI Academy 推出職場 AI 應用新課程",
+        "desc": "OpenAI Academy 發布一系列新的職場 AI 應用課程，幫助專業人士掌握在工作環境中有效運用 AI 的技能。課程涵蓋實際案例和最佳實踐，讓學員能立即將所學應用到日常工作中。",
         "tags": [
-          "huggingface",
-          "github",
-          "code-review"
+          "tool"
         ]
       },
       {
-        "sub": "embedding",
-        "title": "Hugging Face 實作文：Stable Static Embedding 可在 CPU 高速跑檢索與 agent",
-        "desc": "這篇 2026-06-13 的實作文不是單純介紹 embedding 概念，而是給出兩個開源 repo，示範怎麼把大約 1600 萬參數的 SSE 模型訓練、部署，並接進 RAG 或 agent 工作流。對想把檢索層做輕量化、又不想一開始就上大型向量服務的人，參考價值很高。",
-        "url": "https://huggingface.co/blog/RikkaBotan/stable-static-embedding-in-practice",
-        "source": "Hugging Face",
+        "url": "https://medium.com/@curiousmindshq077/i-collected-200-chatgpt-prompts-so-you-dont-have-to-here-are-my-15-favourites-8d9146cc5a97?source=rss------chatgpt-5",
+        "source": "Medium",
+        "sub": "tutorial",
+        "published": "2026-06-14",
+        "title": "精選 15 個最實用的 ChatGPT 提示詞",
+        "desc": "作者整理了 200 個 ChatGPT 提示詞後，分享其中最有效的 15 個。涵蓋寫作、分析、創意發想等多個領域，每個提示詞都有具體使用情境和預期效果說明，讓你快速提升 AI 對話品質。",
         "tags": [
-          "huggingface",
-          "embedding",
-          "rag"
-        ]
-      },
-      {
-        "sub": "leaderboard",
-        "title": "MTEB 榜單改版：可更快篩 embedding 模型、看任務面向與細部表現",
-        "desc": "新版 MTEB Leaderboard 在 2026-06-12 公開，重點不是又多一個榜單，而是把原本偏慢的 demo 升級成可實際選型的工具。它現在更適合依語言、任務類型與細項指標篩模型，對要選 embedding 模型做搜尋、分類或 RAG 的人，比只看總分更有用。",
-        "url": "https://huggingface.co/blog/Samoed/mteb-v3-leaderboard",
-        "source": "Hugging Face",
-        "tags": [
-          "huggingface",
-          "embedding",
-          "benchmark"
+          "tutorial"
         ]
       }
     ],
-    "gh": [
+    "gemini": [
       {
-        "sub": "security",
-        "title": "GitHub Copilot CLI 新增 /security-review，可先在本機掃變更的安全風險",
-        "desc": "GitHub 在 2026-06-10 發布 Copilot CLI 的實驗功能 /security-review。它會直接分析你本機尚未提交的變更，回報高信心的安全問題與修正建議，涵蓋 injection、XSS、路徑穿越、弱加密等常見風險。這很適合在 commit 前多一道快速檢查。",
-        "url": "https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli/",
-        "source": "GitHub Changelog",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UVUhXaFViNE1fdWlicVBWUmdEMTd6Zm9lcEFuanJrS2FrU1lnbFZZVXNNY0xMMkZ6cTVPeVVrVEZ5RXNXUGdXVy12NHJLZw?oc=5",
+        "source": "天下雜誌",
+        "sub": "tutorial",
+        "published": "2026-06-10",
+        "title": "NotebookLM 完整使用指南與功能教學",
+        "desc": "全面解析 Google NotebookLM 的核心功能、使用方法和最新更新。從基礎操作到進階技巧，幫助你掌握這款 AI 筆記工具的各種應用場景和實用技巧。",
         "tags": [
-          "github",
-          "copilot",
-          "security"
-        ]
-      },
-      {
-        "sub": "cli",
-        "title": "GitHub Copilot CLI 新增 /settings，把分散設定集中成可搜尋的單一入口",
-        "desc": "GitHub 在 2026-06-11 把 Copilot CLI 的設定整併成新的 /settings。現在可以用全螢幕設定介面、單行指令，或腳本方式改值，也能直接 reset。對常在終端調整實驗功能、同步層級或顯示模式的人，這比手改設定檔省事很多。",
-        "url": "https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings/",
-        "source": "GitHub Changelog",
-        "tags": [
-          "github",
-          "copilot",
-          "cli"
-        ]
-      },
-      {
-        "sub": "workflow",
-        "title": "GitHub Agentic Workflows 現在可直接用 GITHUB_TOKEN，不必再存 PAT",
-        "desc": "GitHub 在 2026-06-11 宣布 Agentic Workflows 可直接使用 GitHub Actions 內建的 GITHUB_TOKEN。這代表自動化流程不必再自行建立與保存長期 PAT，安全與維運成本都更低；若是組織擁有的 repo，AI 使用量也能直接記到組織帳務，較容易做成本控管。",
-        "url": "https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token/",
-        "source": "GitHub Changelog",
-        "tags": [
-          "github",
-          "copilot",
-          "workflow"
+          "tutorial"
         ]
       }
-    ]
+    ],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-06-11",
+        "title": "GitHub Agentic Workflows 開放公眾預覽",
+        "desc": "GitHub 正式推出 Agentic Workflows 功能的公眾預覽版，讓開發者能夠建立自動化的 AI 代理工作流程。這項功能可以自動處理程式碼審查、問題分類、以及其他重複性開發任務。",
+        "tags": [
+          "agent",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://cursor.com/changelog/bugbot-updates-june-2026",
+        "source": "Cursor",
+        "sub": "feature",
+        "published": "2026-06-10",
+        "title": "Cursor Bugbot 大幅效能提升",
+        "desc": "Cursor 的 Bugbot 功能獲得重大升級：速度提升 3 倍、成本降低 22%、錯誤偵測率提高 10%。這些改進讓程式碼錯誤偵測變得更快速準確，大幅提升開發效率。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+        "source": "Hugging Face",
+        "sub": "feature",
+        "published": "2026-06-09",
+        "title": "Cohere 推出首款開發者專用模型 North Mini Code",
+        "desc": "Cohere 發布專為開發者設計的 North Mini Code 模型，專精於程式碼生成、除錯和解釋。相較於通用模型，這款專用模型在程式設計任務上表現更出色，且推理速度更快。",
+        "tags": [
+          "model",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@subramanyamanjegowda/day-9-retrieval-augmented-generation-rag-explained-simply-for-devops-cloud-engineers-b191788de7a0?source=rss------artificial_intelligence-5",
+        "source": "Medium",
+        "sub": "tutorial",
+        "published": "2026-06-14",
+        "title": "RAG 技術簡化解說：專為 DevOps 工程師設計",
+        "desc": "用淺顯易懂的方式為 DevOps 和雲端工程師解釋檢索增強生成（RAG）技術。涵蓋基本概念、實作方法和在 DevOps 環境中的具體應用場景，讓非 AI 專業的工程師也能快速上手。",
+        "tags": [
+          "tutorial"
+        ]
+      }
+    ],
+    "skipped": "融資併購新聞 8 則、空泛趨勢討論 12 則、看不出具體學習內容的教學 15 則、政策法規類 6 則"
   },
   {
     "date": "2026-06-13",
