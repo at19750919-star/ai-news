@@ -3,6 +3,382 @@
 // 所有歷史資料均永久保留
 const AI_NEWS_DATA = [
   {
+    "date": "2026-06-29",
+    "weekday": "星期一",
+    "stats": {
+      "claude": 4,
+      "openai": 3,
+      "gemini": 1,
+      "grok": 0,
+      "news": 4
+    },
+    "claude": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iZjJCVWRWdnpWLWtMTGVEcy1RbmFuWGY3UHhfVmFlQkRZalpoOFZMMzhLeEZhYVBTcjhKR0FZaEF5QlpNVzB2bXVIczF0X0RWbmN4NDM4VmUtZGxyU2dHbGRSWQ?oc=5",
+        "source": "Anthropic",
+        "sub": "feature",
+        "published": "2026-06-23",
+        "title": "Anthropic 推出 Claude Tag 新功能",
+        "desc": "Anthropic 發布 Claude Tag，讓使用者能透過標籤系統有效組織與管理對話內容，快速檢索與分類歷史對話，提升工作流程效率與資訊管理能力，適合需要處理大量對話記錄的專業使用者。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@abassaidhassan/how-to-tweak-claude-prompts-for-subscription-based-digital-products-instead-of-one-time-downloads-13277b96367d?source=rss------ai_tools-5",
+        "source": "Medium",
+        "published": "2026-06-28",
+        "title": "如何調整 Claude Prompt 用於訂閱制數位產品而非一次性下載",
+        "desc": "針對訂閱制數位產品（如會員內容、持續更新資源）調整 Claude Prompt 的方法。文章說明如何修改提示詞架構、強調持續價值、設計會員專屬內容，讓 AI 生成的文案更符合訂閱商業模式需求。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aRDItS3BydklKUEdBdHdpckJuSEdSNVU1U2NRQzRoR1Z4U0NTclotZ1MtNmVfRjN4WHVraGhWSVhzaXgydkhOcXExNGZpX2hmdzJuaW5rdVNLR1QtdlRiM3ZKcUdPeGRYeldDMFFOVQ?oc=5",
+        "source": "數位時代",
+        "published": "2026-06-17",
+        "title": "Claude 自動化教學：用 memory 和 connector 找出值得自動化的工作",
+        "desc": "教你用 Claude 的 memory 和 connector 功能，透過 4 個步驟辨識並自動化重複性工作。文章說明如何分析工作流程、設定記憶功能、串接外部工具、建立自動化腳本，幫你找出最值得投資時間優化的任務。",
+        "tags": [
+          "tutorial",
+          "workflow",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSFNzbzg3UjRTM2w4SG1nYmNjS1J2WlFKOFNhS0lBaG5OZ0w4djN1ZVkxUEN6SEZIdHVQMDBDS3VzZko0SEk1YTJPN0lfQW0wWUZFbHdGM3FyaWl3SzRRSlpQQjRJekJ5VW11UkI1Yk9LV2tlNzZMZkN2R042Sm9Xd1J3?oc=5",
+        "source": "數位時代",
+        "published": "2026-06-17",
+        "title": "提示詞怎麼寫？Claude 官方公開 4 步驟優化法解決 AI 變笨問題",
+        "desc": "Anthropic 官方公開的 Claude prompt 優化 4 步驟方法。文章說明如何透過明確指令、範例示範、結構化輸出、錯誤修正來改善提示詞品質，解決 AI 回應不如預期或「變笨」的問題，提升互動效果。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      }
+    ],
+    "openai": [
+      {
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "source": "OpenAI",
+        "sub": "model",
+        "published": "2026-06-26",
+        "title": "OpenAI 預覽新一代模型 GPT-5.6 Sol",
+        "desc": "OpenAI 推出下一代語言模型 GPT-5.6 Sol 的預覽版本，具備更強的推理能力與效能提升，為 GPT 系列帶來重大進化，開發者可提前體驗新模型的功能特性與應用潛力。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://medium.com/@noorislamwebdev/why-most-people-use-chatgpt-wrong-and-how-to-actually-get-value-from-it-1eea4857ba76?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-06-28",
+        "title": "為什麼大多數人都用錯 ChatGPT？如何真正發揮它的價值",
+        "desc": "指出常見的 ChatGPT 使用誤區，包括提問方式、期待管理、情境設定等。文章分享如何透過明確指令、結構化提問、迭代優化來提升 ChatGPT 回應品質，讓 AI 真正成為生產力工具而非聊天玩具。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      },
+      {
+        "url": "https://medium.com/@tboyango.work/how-hr-teams-use-ai-to-write-performance-reviews-3-prompts-with-complete-examples-1702185d3410?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-06-28",
+        "title": "HR 如何用 AI 撰寫績效評估：3 個完整 Prompt 範例",
+        "desc": "分享 HR 團隊實際使用的 3 個 AI Prompt 範例，涵蓋績效回饋撰寫、目標設定、改進建議生成。每個 Prompt 都附完整輸入輸出範例，教你如何結構化描述員工表現，讓 AI 產出專業且客製化的評估內容。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      }
+    ],
+    "gemini": [
+      {
+        "url": "https://www.koc.com.tw/archives/647335",
+        "source": "電腦王阿達",
+        "published": "2026-06-28",
+        "title": "Gemini「讀書與學習」筆記本新功能與 5 個使用技巧",
+        "desc": "介紹 Gemini 最新推出的「讀書與學習」筆記本功能，並分享 5 個實用技巧。文章說明如何用 AI 整理學習筆記、生成摘要、建立知識連結、設定學習目標，以及如何搭配其他 Gemini 功能提升學習效率。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      }
+    ],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-06-26",
+        "title": "GitHub Desktop 3.6 支援 Worktrees 與深度 Copilot 整合",
+        "desc": "GitHub Desktop 推出 3.6 版本，新增 Git Worktrees 支援讓開發者可同時處理多個分支，並深化 Copilot 整合，在桌面端提供更流暢的 AI 輔助開發體驗，簡化多分支協作工作流。",
+        "tags": [
+          "tool",
+          "integration"
+        ]
+      },
+      {
+        "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
+        "source": "GitHub",
+        "sub": "model",
+        "published": "2026-06-26",
+        "title": "GitHub Copilot 企業版導入 MAI-Code-1-Flash 模型",
+        "desc": "GitHub 為 Copilot Business 與 Enterprise 版本引入 MAI-Code-1-Flash 模型，提供更快的程式碼生成速度與更精準的建議，強化企業級開發者的 AI 輔助能力與開發效率。",
+        "tags": [
+          "model",
+          "integration"
+        ]
+      },
+      {
+        "url": "https://xhinker.medium.com/power-your-local-ai-server-with-solar-a-practical-guide-to-running-24x7-off-the-grid-8da5f5745db9?source=rss------artificial_intelligence-5",
+        "source": "Medium",
+        "published": "2026-06-29",
+        "title": "用太陽能運行本地 AI 伺服器：24/7 離網運行實戰指南",
+        "desc": "教你如何用太陽能供電系統運行本地 AI 伺服器，實現 24 小時離網運行。文章提供實際配置步驟、硬體選購建議、電力計算方法，以及如何優化能源效率，適合想打造獨立 AI 運算環境的進階用戶。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZSzA3clU3X3lUam84SFhJblRsY2VZM1NBelRqSldXOV9XcWRacVFzd3RaRVlRaHJKcWJlMmVBazRxcmQyU2pISk1hN25vWVdqR01RQ1RsNlRHSWZPVDdIYw?oc=5",
+        "source": "經理人",
+        "published": "2026-06-17",
+        "title": "Codex AI 簡報教學：6 步驟做出可修改投影片與專屬 Skills",
+        "desc": "教你用 Codex AI 製作投影片的 6 個步驟，包括主題設定、內容生成、樣式調整、自訂 Skills 功能。文章強調 Codex 在簡報製作上比 ChatGPT 更強，生成的投影片可直接編輯，並能建立專屬技能提升效率。",
+        "tags": [
+          "tutorial",
+          "workflow",
+          "tool"
+        ]
+      }
+    ],
+    "skipped": "刷掉 66 則：企業合作/併購/投資約 8 則、趨勢文/案例分享約 15 則、研究論文約 5 則、硬體晶片 1 則、其餘為次要功能更新或重複項目"
+  },
+  {
+    "date": "2026-06-26",
+    "weekday": "星期五",
+    "stats": {
+      "claude": 3,
+      "openai": 2,
+      "gemini": 1,
+      "grok": 0,
+      "news": 4
+    },
+    "claude": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iZjJCVWRWdnpWLWtMTGVEcy1RbmFuWGY3UHhfVmFlQkRZalpoOFZMMzhLeEZhYVBTcjhKR0FZaEF5QlpNVzB2bXVIczF0X0RWbmN4NDM4VmUtZGxyU2dHbGRSWQ?oc=5",
+        "source": "Anthropic",
+        "sub": "feature",
+        "published": "2026-06-23",
+        "title": "Anthropic 推出 Claude Tag 新功能",
+        "desc": "Claude 新增 Tag 功能，讓使用者能更有效地組織和管理對話內容。這項更新強化了 Claude 在專案管理和知識整理上的實用性，特別適合需要處理大量對話歷程的使用者，提升工作流程的條理性。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSFNzbzg3UjRTM2w4SG1nYmNjS1J2WlFKOFNhS0lBaG5OZ0w4djN1ZVkxUEN6SEZIdHVQMDBDS3VzZko0SEk1YTJPN0lfQW0wWUZFbHdGM3FyaWl3SzRRSlpQQjRJekJ5VW11UkI1Yk9LV2tlNzZMZkN2R042Sm9Xd1J3?oc=5",
+        "source": "數位時代",
+        "published": "2026-06-17",
+        "title": "提示詞怎麼寫？官方公開 Claude prompt 優化四步驟",
+        "desc": "Anthropic 官方公開 Claude 提示詞優化方法,解決 AI 回應品質下降問題。教學涵蓋四大步驟:明確任務定義、提供範例、結構化輸出格式、迭代測試優化。適合想提升 Claude 使用效果、解決「AI 變笨」困擾的使用者,文中提供具體 prompt 撰寫技巧與最佳實踐。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aRDItS3BydklKUEdBdHdpckJuSEdSNVU1U2NRQzRoR1Z4U0NTclotZ1MtNmVfRjN4WHVraGhWSVhzaXgydkhOcXExNGZpX2hmdzJuaW5rdVNLR1QtdlRiM3ZKcUdPeGRYeldDMFFOVQ?oc=5",
+        "source": "數位時代",
+        "published": "2026-06-17",
+        "title": "Claude 自動化教學:用 memory 和 connector 找出值得自動化的工作",
+        "desc": "教學示範如何運用 Claude 的 memory(記憶)與 connector(連接器)功能,四步驟識別並自動化重複性工作流程。涵蓋工作模式分析、自動化可行性評估、串接外部工具、建立工作流等實作步驟。適合想提升工作效率、減少手動作業的使用者,提供具體的自動化場景範例與實踐指引。",
+        "tags": [
+          "tutorial",
+          "workflow",
+          "tool"
+        ]
+      }
+    ],
+    "openai": [
+      {
+        "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+        "source": "OpenAI",
+        "sub": "feature",
+        "published": "2026-06-18",
+        "title": "ChatGPT 強化健康智能功能",
+        "desc": "OpenAI 升級 ChatGPT 的健康相關知識能力，提供更準確的醫療資訊回應與健康建議。這項更新讓 ChatGPT 在健康諮詢、症狀理解和醫療知識查詢上更加可靠，但仍建議使用者諮詢專業醫療人員。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZSzA3clU3X3lUam84SFhJblRsY2VZM1NBelRqSldXOV9XcWRacVFzd3RaRVlRaHJKcWJlMmVBazRxcmQyU2pISk1hN25vWVdqR01RQ1RsNlRHSWZPVDdIYw?oc=5",
+        "source": "經理人",
+        "published": "2026-06-17",
+        "title": "Codex AI 簡報教學:六步驟做出能修改的投影片與專屬 Skills",
+        "desc": "詳解 Codex AI 簡報製作功能,比 ChatGPT 更強大的編輯彈性。六步驟涵蓋:建立專案、輸入大綱、生成投影片、即時修改樣式與內容、匯出格式、建立可重複使用的 Skills。提供完整操作流程與截圖,適合需要快速產出專業簡報、希望保留後續編輯彈性的使用者。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      }
+    ],
+    "gemini": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTNUFJV3Vkd0xZUjZEQ0xTbHV1YmdjVUZzUEZFSXFXMkFYZmFQb2lOUEpYeVdMZUY4eTIyaG5yajFsMGxrUWt6SnNWM2Z5R21MNVBrT2xMOXJINmZoR1p0alF1dm1NQjRl?oc=5",
+        "source": "Now 新聞",
+        "published": "2026-06-22",
+        "title": "AI 辦公自動化:NotebookLM 最新功能 + KorTex 擴充教學",
+        "desc": "解密 NotebookLM 最新功能並搭配 KorTex 擴充套件,實現工作效率翻倍。教學涵蓋 NotebookLM 進階應用(多文件整合、自動摘要、知識圖譜)與 KorTex 瀏覽器外掛設定,示範如何串接兩者完成自動化工作流。提供實際辦公場景範例,適合想優化文件處理流程的上班族。",
+        "tags": [
+          "tutorial",
+          "tool",
+          "workflow"
+        ]
+      }
+    ],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-06-26",
+        "title": "GitHub Desktop 3.6 推出 Worktrees 與深度 Copilot 整合",
+        "desc": "GitHub Desktop 最新版本新增 Git Worktrees 支援，讓開發者能在同一專案中同時處理多個分支，並強化與 GitHub Copilot 的整合，提升程式碼審查與協作效率。適合需要並行開發多功能的團隊使用。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://cursor.com/changelog/customize",
+        "source": "Cursor",
+        "sub": "feature",
+        "published": "2026-06-22",
+        "title": "Cursor 開放自訂功能",
+        "desc": "AI 程式編輯器 Cursor 推出自訂功能，讓開發者能根據個人偏好調整介面、快捷鍵和工作流程。這項更新提升了開發體驗的靈活性，讓 Cursor 更貼近不同開發者的使用習慣。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@henrywill/how-to-turn-a-vibe-coded-prototype-into-a-real-saas-29e64cab41d1?source=rss------artificial_intelligence-5",
+        "source": "Medium",
+        "published": "2026-06-26",
+        "title": "如何將 AI 生成原型轉為真實 SaaS 產品",
+        "desc": "教學說明如何把 Bolt、Lovable、Cursor 等 AI 工具快速生成的原型,升級為可上線的 SaaS 產品。六大步驟涵蓋:現狀審計、架構決策、基礎建設(身份驗證、資料庫、日誌)、使用者體驗優化、商業層考量(定價、合規、客服)。強調「從展示轉向承諾」的產品思維,提供決策框架而非代碼範例。",
+        "tags": [
+          "tutorial",
+          "workflow"
+        ]
+      },
+      {
+        "url": "https://www.koc.com.tw/archives/647214",
+        "source": "電腦王阿達",
+        "published": "2026-06-26",
+        "title": "蘋果官方教學:三步驟在 Mac 本地端跑 AI Agent 開發 App",
+        "desc": "Apple WWDC 2026 示範如何不用 API、不用訂閱,在 Mac 本地端運行 AI Agent 開發 iPad App。使用 MLX、MLX LM、MLX LM Server 技術堆疊,三步驟完成:安裝 mlx-lm、啟動本地模型伺服器、連接開發工具。教學展示 M5 晶片神經加速器 4 倍效能提升、離線可用與資料隱私優勢,附 SwiftUI 繪圖 App 實作範例。",
+        "tags": [
+          "tutorial",
+          "agent",
+          "tool"
+        ]
+      }
+    ],
+    "skipped": "已刷除約 70 則：包含硬體投資、IPO 聲明、研究論文、應用案例、公司動態、使用技巧教學、活動回顧等非實際功能更新項目。"
+  },
+  {
+    "date": "2026-06-25",
+    "weekday": "星期三",
+    "stats": {
+      "claude": 0,
+      "openai": 1,
+      "gemini": 0,
+      "grok": 0,
+      "news": 5
+    },
+    "claude": [],
+    "openai": [
+      {
+        "url": "https://openai.com/index/how-agents-are-transforming-work",
+        "source": "OpenAI",
+        "sub": "feature",
+        "published": "2026-06-25",
+        "title": "How agents are transforming work",
+        "desc": "OpenAI 深度分析 AI 代理如何改變職場工作模式,從自動化任務執行到決策輔助,探討企業導入 Agent 系統後的實際效益與組織變革,並提供多個產業的應用案例研究。",
+        "tags": [
+          "agent"
+        ]
+      }
+    ],
+    "gemini": [],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://github.blog/changelog/2026-06-25-copilot-code-review-analysis-depth-and-efficiency-updates",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-06-25",
+        "title": "Copilot code review: Analysis depth and efficiency updates",
+        "desc": "GitHub Copilot 代碼審查功能重大升級,分析深度與效率雙雙提升。新版本能更準確識別潛在安全漏洞、效能瓶頸與程式碼異味,同時縮短審查時間,協助開發團隊在 PR 階段就發現問題。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available",
+        "source": "GitHub",
+        "sub": "integration",
+        "published": "2026-06-25",
+        "title": "GitHub Copilot for Jira is now generally available",
+        "desc": "GitHub Copilot 與 Jira 的整合正式 GA,開發者可直接在 Jira issue 中獲得程式碼建議與技術文件摘要,打通專案管理與開發環節,減少工具切換成本。支援自動產生 ticket 技術規格與預估工作量。",
+        "tags": [
+          "integration"
+        ]
+      },
+      {
+        "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-06-25",
+        "title": "Actions steps can now be run in parallel",
+        "desc": "GitHub Actions 推出並行執行步驟功能,允許 workflow 中的獨立步驟同時運行,大幅縮短 CI/CD 流程時間。適用於需同時執行多項測試、建置不同平台或並行部署的場景,可顯著提升開發效率。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+        "source": "Hugging Face",
+        "sub": "research",
+        "published": "2026-06-25",
+        "title": "Which tokens does a hybrid model predict better?",
+        "desc": "AllenAI 研究團隊分析混合模型在不同類型 token 上的預測表現差異,發現混合架構在處理特定語義結構(如程式碼、數學公式)時顯著優於純 Transformer 模型,為未來模型架構設計提供新方向。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+        "source": "Google",
+        "sub": "feature",
+        "published": "2026-06-25",
+        "title": "Our latest Google Finance upgrades, including a new app",
+        "desc": "Google Finance 推出全新獨立應用與介面升級,整合 AI 驅動的投資組合分析、即時市場洞察與個人化財經新聞推薦,幫助用戶更高效追蹤投資標的與理解市場趨勢。",
+        "tags": [
+          "tool"
+        ]
+      }
+    ],
+    "skipped": "Medium 通用教學文(AI寫作工具比較、Prompt 教學)共 15 篇;台灣教育 AI 應用報導 8 篇;科技新報非 AI 新聞(太空、海運、半導體)12 篇;電腦王阿達產品開箱與功能更新 5 篇。本日 tutorial lane 候選皆為通用操作指南或廣告性質,無符合「有實質技術深度或創新應用場景」標準之文章。"
+  },
+  {
     "date": "2026-06-15",
     "weekday": "星期一",
     "stats": {
