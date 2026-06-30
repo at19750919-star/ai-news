@@ -3,6 +3,152 @@
 // 所有歷史資料均永久保留
 const AI_NEWS_DATA = [
   {
+    "date": "2026-06-30",
+    "weekday": "星期二",
+    "stats": {
+      "claude": 3,
+      "openai": 2,
+      "gemini": 1,
+      "grok": 0,
+      "news": 5
+    },
+    "claude": [
+      {
+        "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+        "source": "GitHub",
+        "sub": "integration",
+        "published": "2026-06-29",
+        "title": "GitHub Copilot 預覽 Claude Opus 4.8 快速模式",
+        "desc": "GitHub Copilot 現在支援 Claude Opus 4.8 的快速模式（fast mode），讓開發者能在程式碼輔助時使用 Anthropic 最新旗艦模型的高速版本，兼顧推理能力與回應速度，適合需要即時程式碼建議的場景。",
+        "tags": [
+          "integration",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iZjJCVWRWdnpWLWtMTGVEcy1RbmFuWGY3UHhfVmFlQkRZalpoOFZMMzhLeEZhYVBTcjhKR0FZaEF5QlpNVzB2bXVIczF0X0RWbmN4NDM4VmUtZGxyU2dHbGRSWQ?oc=5",
+        "source": "Anthropic",
+        "sub": "feature",
+        "published": "2026-06-23",
+        "title": "Anthropic 推出 Claude Tag",
+        "desc": "Anthropic 發布 Claude Tag 新功能，讓使用者能更有效地組織和管理 Claude 對話，透過標籤系統分類不同主題或專案的互動記錄，提升多任務工作流程的效率與脈絡管理能力。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSFNzbzg3UjRTM2w4SG1nYmNjS1J2WlFKOFNhS0lBaG5OZ0w4djN1ZVkxUEN6SEZIdHVQMDBDS3VzZko0SEk1YTJPN0lfQW0wWUZFbHdGM3FyaWl3SzRRSlpQQjRJekJ5VW11UkI1Yk9LV2tlNzZMZkN2R042Sm9Xd1J3?oc=5",
+        "source": "數位時代",
+        "published": "2026-06-17",
+        "title": "Claude 官方提示詞優化４步驟，解決 AI 變笨問題",
+        "desc": "Anthropic 官方公開的 Claude 提示詞優化指南，透過４個步驟改善提示詞品質，解決 AI 回應不如預期的問題。涵蓋提示詞結構、上下文提供、範例使用等實用技巧，幫助使用者寫出更有效的提示詞。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      }
+    ],
+    "openai": [
+      {
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "source": "OpenAI",
+        "sub": "model",
+        "published": "2026-06-26",
+        "title": "OpenAI 預覽次世代模型 GPT-5.6 Sol",
+        "desc": "OpenAI 釋出 GPT-5.6 Sol 的預覽版本，這是新一代大型語言模型，在推理、多模態理解與複雜任務處理上有顯著提升，代表 GPT-5 系列進入更成熟階段，開發者可搶先體驗並提供回饋。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://mudshahid.medium.com/13-best-chatgpt-prompts-for-everyday-productivity-2026-guide-c3398e5665f0?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-06-30",
+        "title": "13 個提升日常生產力的 ChatGPT 提示詞（2026 指南）",
+        "desc": "整理 13 個能提升日常工作效率的 ChatGPT 提示詞範例，涵蓋從任務管理到內容創作等場景，每個提示詞都附有使用情境與實際範例，適合新手快速上手提升生產力。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      }
+    ],
+    "gemini": [
+      {
+        "url": "https://www.koc.com.tw/archives/647389",
+        "source": "電腦王阿達",
+        "published": "2026-06-29",
+        "title": "Google ADK 框架入門：８分鐘打造專屬 AI Agent",
+        "desc": "Google 官方提供的 ADK（Agent Development Kit）入門教學，示範如何在８分鐘內建立自己的 AI Agent。涵蓋框架基礎概念、開發步驟與實際範例，適合開發者快速上手。",
+        "tags": [
+          "tutorial",
+          "agent",
+          "workflow"
+        ]
+      }
+    ],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://cursor.com/changelog/ios-mobile-app",
+        "source": "Cursor",
+        "sub": "feature",
+        "published": "2026-06-29",
+        "title": "Cursor 推出 iOS 行動應用程式",
+        "desc": "AI 程式碼編輯器 Cursor 正式發布 iOS 版本，讓開發者能在 iPhone 和 iPad 上使用 AI 輔助編程功能，支援行動裝置上的程式碼檢視、編輯與 AI 對話，實現隨時隨地寫程式的工作模式。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://pub.aimind.so/your-ai-portraits-look-fake-because-of-this-one-prompting-mistake-and-heres-how-to-fix-it-a40cb503a4a0?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-06-29",
+        "title": "為什麼你的 AI 肖像看起來很假？一個提示詞錯誤的解法",
+        "desc": "指出多數人在生成 AI 肖像時常犯的提示詞錯誤，導致圖片看起來不自然。文章解釋問題成因，並提供具體的提示詞優化步驟與範例，幫助產出更真實的 AI 肖像作品。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      },
+      {
+        "url": "https://medium.com/@mansoorazizkha/ai-tools-that-actually-save-time-and-the-mistakes-most-beginners-make-52925e7408c7?source=rss------ai_tools-5",
+        "source": "Medium",
+        "published": "2026-06-29",
+        "title": "真正能節省時間的 AI 工具（以及新手常犯的錯誤）",
+        "desc": "介紹幾款實際能提升工作效率的 AI 工具，並點出初學者在使用 AI 工具時最常踩的坑，包括工具選擇、使用場景判斷與配置設定等，提供實用建議避免浪費時間走冤枉路。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZSzA3clU3X3lUam84SFhJblRsY2VZM1NBelRqSldXOV9XcWRacVFzd3RaRVlRaHJKcWJlMmVBazRxcmQyU2pISk1hN25vWVdqR01RQ1RsNlRHSWZPVDdIYw?oc=5",
+        "source": "經理人",
+        "published": "2026-06-17",
+        "title": "Codex AI 簡報教學：６步驟做出能修改的投影片",
+        "desc": "介紹 Codex AI 製作簡報的完整流程，從建立專屬 Skills 到產出可編輯的投影片，僅需６個步驟。文章比較與 ChatGPT 的差異，並提供實際操作範例與設定技巧。",
+        "tags": [
+          "tutorial",
+          "tool",
+          "workflow"
+        ]
+      },
+      {
+        "url": "https://www.koc.com.tw/archives/647466",
+        "source": "電腦王阿達",
+        "published": "2026-06-29",
+        "title": "LiveCaption 即時雙語字幕工具，搭配 Ollama 本機運行",
+        "desc": "介紹 Studio0808 LiveCaption 即時網頁影音字幕翻譯工具，搭配 Ollama 可完全在本機運行，無需雲端服務。教學涵蓋安裝步驟、環境配置與使用範例。",
+        "tags": [
+          "tutorial",
+          "tool",
+          "workflow"
+        ]
+      }
+    ],
+    "skipped": "共略過 68 則更新：GitHub 工具改進 9 則、Hugging Face 研究平台 15 則、Google 投資與產品更新 8 則、OpenAI 合作案例 14 則、Cursor 功能優化 8 則、Anthropic 研究與企業動態 13 則、晶片硬體 1 則。篩選標準為具體可用的 AI 功能更新。"
+  },
+  {
     "date": "2026-06-29",
     "weekday": "星期一",
     "stats": {
