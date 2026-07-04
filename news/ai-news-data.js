@@ -3,6 +3,152 @@
 // 所有歷史資料均永久保留
 const AI_NEWS_DATA = [
   {
+    "date": "2026-07-04",
+    "weekday": "星期六",
+    "stats": {
+      "claude": 3,
+      "openai": 2,
+      "gemini": 0,
+      "grok": 0,
+      "news": 6
+    },
+    "claude": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+        "source": "Anthropic",
+        "sub": "model",
+        "published": "2026-07-01",
+        "title": "Anthropic 推出 Claude Sonnet 5 模型",
+        "desc": "Anthropic 正式發布新一代 AI 模型 Claude Sonnet 5，這是 Sonnet 系列的最新版本。新模型在推理能力、程式碼生成、多語言處理等方面都有顯著提升，同時維持了 Claude 一貫的安全性與可靠性標準，適用於企業級應用場景。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0J0dXluYzJGcmxVb3dDY0Z2UjVYT2I5ZkYwSVRrWTBSUm5HZXpWRkFsQ2k5bm1jbVU5cENOY0xkX0tybV9FbnhRcFVac1dncWtqTF85OTZyd3o1dlRXenJkd1h3T1pTSGc?oc=5",
+        "source": "Anthropic",
+        "sub": "tool",
+        "published": "2026-06-30",
+        "title": "Claude Science 科學工作台正式上線",
+        "desc": "Anthropic 發布專為科學研究設計的 AI 工作台 Claude Science，提供文獻分析、實驗數據處理、假說生成等功能。這個工具整合了 Claude 的語言理解與科學知識，能協助研究人員加速從資料探索到論文撰寫的完整研究流程。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sOFctbUI0RFFzUnRrVDYyYzdublRhbDUzZkgzaHMzZWpzSFVrRmNVSWk5dFF0ZHBibmFabkJ2ekVlUXlHZS1WU0FYMUJUSzg4cGZxenEtT3ZaalRQd2I1aGk5RGcxN21rMDlN?oc=5",
+        "source": "數位時代",
+        "published": "2026-07-03",
+        "title": "Claude 2026 新手完全指南：Projects、Skills、Cowork 全解析",
+        "desc": "從 Claude 基礎操作到進階功能完整教學，涵蓋 Projects 專案管理、Skills 自訂能力、Cowork 協作模式等 2026 最新功能，附使用情境範例與設定技巧，適合初學者快速掌握 Claude 完整生態系。",
+        "tags": [
+          "tutorial",
+          "workflow",
+          "tool"
+        ]
+      }
+    ],
+    "openai": [
+      {
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "source": "OpenAI",
+        "sub": "model",
+        "published": "2026-06-26",
+        "title": "OpenAI 預覽次世代模型 GPT-5.6 Sol",
+        "desc": "OpenAI 公開預覽下一代旗艦模型 GPT-5.6 Sol。這個模型在科學推理、數學證明、程式設計等複雜任務上有重大突破，特別強化了長上下文處理與多步驟推理能力，目前開放部分用戶測試，預計未來幾個月正式發布。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14eHJSd0VlOWkwTVZYa2lnVVd5ODFqQm1JaEJPQzNpYWFtZGptdVAyd0w0UjRHcGlhdTdIcG9yQUw5ci1nTVpCMkQ0cnZYSU54N3NUa2VsaUF4NnBWb3VlekIwZ2c2amJhZmhud2JWMA?oc=5",
+        "source": "數位時代",
+        "published": "2026-07-03",
+        "title": "ChatGPT 記憶功能設定教學與隱私管理",
+        "desc": "教你 3 步驟啟用與管理 ChatGPT 記憶功能，說明免費與付費版差異、記憶內容檢視與刪除方法、隱私控制選項，協助你在便利性與資料安全間取得平衡，附常見問題解答與最佳實踐建議。",
+        "tags": [
+          "tutorial",
+          "tool",
+          "workflow"
+        ]
+      }
+    ],
+    "gemini": [],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://cursor.com/changelog/ios-mobile-app",
+        "source": "Cursor",
+        "sub": "feature",
+        "published": "2026-06-29",
+        "title": "Cursor 推出 iOS 行動版應用程式",
+        "desc": "AI 程式碼編輯器 Cursor 正式推出 iOS 版本，讓開發者能在 iPhone 和 iPad 上使用 AI 輔助寫程式。行動版保留了桌面版的核心功能，包括 AI 程式碼補全、對話式編輯，並針對觸控介面優化了操作體驗，讓隨時隨地寫程式成為可能。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@aishatabubakarx/the-obvious-ways-to-spot-someone-secretly-writing-with-ai-a3038c0148d1?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-07-03",
+        "title": "如何辨識文字是否由 AI 代筆",
+        "desc": "教你識破 AI 生成文章的明顯特徵，包括用字模式、結構邏輯、語氣一致性等判斷指標，協助你在閱讀時快速分辨內容是人寫還是 AI 產生，適合編輯、教師及內容審核者參考，附實際案例分析。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@founder_26879/how-to-make-money-online-with-faceless-channels-the-ai-soccer-shorts-strategy-b202c5e4ae00?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-07-03",
+        "title": "用 AI 做足球短影片頻道賺錢攻略",
+        "desc": "教你建立「無露臉」YouTube 頻道，用 AI 工具自動生成足球精華短片，從選題、剪輯到變現的完整流程，適合想透過短影片創作被動收入的新手，附實際操作步驟與工具建議及成本分析。",
+        "tags": [
+          "tutorial",
+          "workflow",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://medium.com/@na2928/55-prompts-for-recruiters-that-save-5-10-hours-a-week-ai-recruiting-toolkit-for-2026-92aedfd258e1?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-07-03",
+        "title": "招募人員專用：55 個省時 Prompt 模板",
+        "desc": "整理 55 個實用 AI 提示詞範本，涵蓋職缺撰寫、候選人篩選、面試問題設計、郵件回覆等招募流程，幫助 HR 每週節省 5–10 小時重複作業，附 2026 最新招募情境範例與使用技巧。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      },
+      {
+        "url": "https://imprasit.medium.com/how-to-build-micro-tool-websites-that-can-earn-traffic-ad-revenue-bcdcd60a4fea?source=rss------ai_tools-5",
+        "source": "Medium",
+        "published": "2026-07-03",
+        "title": "打造吸流量的微型工具網站教學",
+        "desc": "教你用 AI 協助開發簡單實用的線上工具網站（如計算器、產生器、轉換器），從發想、建置到 SEO 優化，再透過廣告變現賺取流量收益，附實戰案例與技術選擇建議，適合想創建被動收入的開發者。",
+        "tags": [
+          "tutorial",
+          "workflow",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVFNIb0dRVXZ2MlZ1R3NPMXktLUtTOFpjMEJKa0M1eGp2SzdMWkRCckIxckFWUzFocWczN1lKVVZ3d1BtdlI3NUVid3NXUTlQLUV6TzRwc29nSzdlTTBVd1hEV1pYQVBFVDh1ODh6d2hqZnM4X1g0dDlvYmNPQnRqVzBxMkpPd2c?oc=5",
+        "source": "數位時代",
+        "published": "2026-07-03",
+        "title": "用 AI 與顧問框架優化口語表達技巧",
+        "desc": "結合麥肯錫金字塔原理、BCG 結構化思考與 Toastmasters 演講評估框架，教你用 AI 工具分析錄音或逐字稿，找出填充詞（如「那個」「就是」）與邏輯破綻，附實作步驟與改善建議。",
+        "tags": [
+          "tutorial",
+          "workflow",
+          "tool"
+        ]
+      }
+    ],
+    "skipped": "刷掉了約 70 則：公司動態/投資/人事公告（約 8 則）、研究報告/案例研究（約 12 則）、技術部落格/觀點文章（約 15 則）、GitHub 企業功能細項更新（約 10 則）、Hugging Face 技術論文/工具（約 15 則）、Google 活動報導（約 5 則）、Anthropic 技術文件/系統卡（約 5 則）。"
+  },
+  {
     "date": "2026-06-30",
     "weekday": "星期二",
     "stats": {
