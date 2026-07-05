@@ -3,6 +3,93 @@
 // 所有歷史資料均永久保留
 const AI_NEWS_DATA = [
   {
+    "date": "2026-07-05",
+    "weekday": "星期日",
+    "stats": {
+      "claude": 2,
+      "openai": 1,
+      "gemini": 0,
+      "grok": 0,
+      "news": 3
+    },
+    "claude": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+        "source": "Anthropic",
+        "sub": "model",
+        "published": "2026-07-01",
+        "title": "Anthropic 推出 Claude Sonnet 5",
+        "desc": "Anthropic 正式發布 Claude Sonnet 5 模型，這是 Claude 家族的最新成員，提供更強大的語言理解與生成能力，適合需要高品質 AI 對話的應用場景。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95OHBUdEhDX0YxUnVCTHpNS3JnaGJ4bUdoSnVxd0dXTWxsNFpNSkkyUzhhYjBSTks4NTFrU2M4d3l4RmQzUE5xTGlhdnk5R2hTNXJxUQ?oc=5",
+        "source": "未來商務",
+        "published": "2026-07-05",
+        "title": "4步驟用 Claude 將 SOP 轉為技能文件並檢查缺漏",
+        "desc": "示範如何用 Claude 將部門標準作業流程（SOP）轉換成可執行的技能文件，只需一句指令就能自動生成任務說明文件，並且同步檢查流程中的漏洞與不一致處，提升文件品質。",
+        "tags": [
+          "tutorial",
+          "prompt",
+          "workflow"
+        ]
+      }
+    ],
+    "openai": [
+      {
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "source": "OpenAI",
+        "sub": "model",
+        "published": "2026-06-26",
+        "title": "OpenAI 預覽次世代模型 GPT-5.6 Sol",
+        "desc": "OpenAI 釋出 GPT-5.6 Sol 的預覽版本，這是新一代的語言模型，承諾在推理能力、準確性與效率上有顯著提升，目前開放開發者測試。",
+        "tags": [
+          "model"
+        ]
+      }
+    ],
+    "gemini": [],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
+        "source": "GitHub",
+        "sub": "feature",
+        "published": "2026-07-02",
+        "title": "GitHub Copilot 代理會話串流進入公開預覽",
+        "desc": "GitHub Copilot 推出代理會話串流功能的公開預覽版，開發者可以即時接收 AI 代理的回應串流，提升互動體驗與開發效率。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://www.notion.so/releases/2026-07-01",
+        "source": "Notion",
+        "sub": "feature",
+        "published": "2026-07-01",
+        "title": "Notion 3.6 版本更新：支援外部代理與 HTML 區塊",
+        "desc": "Notion 發布 3.6 版本，新增外部代理 (External Agents) 整合功能與 HTML 區塊支援，讓使用者可以在 Notion 中嵌入更多樣化的內容與 AI 工具。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVFNIb0dRVXZ2MlZ1R3NPMXktLUtTOFpjMEJKa0M1eGp2SzdMWkRCckIxckFWUzFocWczN1lKVVZ3d1BtdlI3NUVid3NXUTlQLUV6TzRwc29nSzdlTTBVd1hEV1pYQVBFVDh1ODh6d2hqZnM4X1g0dDlvYmNPQnRqVzBxMkpPd2c?oc=5",
+        "source": "數位時代",
+        "published": "2026-07-03",
+        "title": "AI 優化口語表達：用頂尖框架找出填充詞與說話破綻",
+        "desc": "教你運用 AI 工具改善口語表達能力，結合麥肯錫、BCG、Toastmasters 等國際頂尖機構的溝通框架，自動分析錄音或文字稿，精準揪出填充詞、邏輯破綻與冗贅表達，並提供改善建議。",
+        "tags": [
+          "tutorial",
+          "workflow"
+        ]
+      }
+    ],
+    "skipped": "從 72 則 update 候選中排除約 50+ 則公司動態（融資、合作、辦公室）、20+ 則研究論文與技術文章、10+ 則棄用公告與政策文件，選出 4 則具體功能更新。"
+  },
+  {
     "date": "2026-07-04",
     "weekday": "星期六",
     "stats": {
