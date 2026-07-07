@@ -3,6 +3,128 @@
 // 所有歷史資料均永久保留
 const AI_NEWS_DATA = [
   {
+    "date": "2026-07-07",
+    "weekday": "星期二",
+    "stats": {
+      "claude": 5,
+      "openai": 2,
+      "gemini": 0,
+      "grok": 0,
+      "news": 2
+    },
+    "claude": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+        "source": "Anthropic",
+        "sub": "feature",
+        "published": "2026-07-01",
+        "title": "Anthropic 推出 Claude Sonnet 5",
+        "desc": "Anthropic 發布新一代語言模型 Claude Sonnet 5,在推理、編碼、多語言理解等方面都有顯著提升,同時保持 Sonnet 系列一貫的速度與成本優勢,適合需要平衡效能與效率的應用場景。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81R0J0dXluYzJGcmxVb3dDY0Z2UjVYT2I5ZkYwSVRrWTBSUm5HZXpWRkFsQ2k5bm1jbVU5cENOY0xkX0tybV9FbnhRcFVac1dncWtqTF85OTZyd3o1dlRXenJkd1h3T1pTSGc?oc=5",
+        "source": "Anthropic",
+        "sub": "feature",
+        "published": "2026-06-30",
+        "title": "Claude Science 科學工作台正式推出",
+        "desc": "Anthropic 推出專為科學研究設計的 AI 工作台 Claude Science,整合文獻檢索、數據分析、實驗設計等功能,幫助研究人員加速科學發現流程,從假設生成到結果解讀都能獲得 AI 協助。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://www.koc.com.tw/archives/648222",
+        "source": "電腦王阿達",
+        "sub": "tutorial",
+        "published": "2026-07-06",
+        "title": "開源工具讓 Fable 5 的 token 成本最高省 70%",
+        "desc": "介紹一款開源工具,能將文字資訊編碼藏進 PNG 圖片裡,讓 Fable 5 讀取圖片時一次取得大量 context,繞過文字 token 計費,實測可省下最高 70% 成本,適合需要大量背景知識的應用。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQmZaZXd4akRTeWpjUk1QTy1BcWZkMDM3Nkc0dXc5SGQ1Y1RVV3VrdmIwcHllZmNubFpxcDF5M0JLeE1QZG5DQ0FEWE1zRjdDM0V6dFdaNlJ5ZjRhOVZWMkViaExIYk5pSTBxckRYSUp1RER3SnhCTEtWampRT2V0dk93?oc=5",
+        "source": "數位時代",
+        "sub": "tutorial",
+        "published": "2026-07-06",
+        "title": "Claude Code 提示詞懶人包:官方 52 組指令整理",
+        "desc": "彙整 Anthropic 官方推薦的 52 組 Claude Code 指令,適用於工程師、產品經理、設計師等不同角色,涵蓋程式碼審查、重構建議、文件生成、除錯協助等常見場景,一鍵複製直接使用。",
+        "tags": [
+          "tutorial",
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQmZaZXd4akRTeWpjUk1QTy1BcWZkMDM3Nkc0dXc5SGQ1Y1RVV3VrdmIwcHllZmNubFpxcDF5M0JLeE1QZG5DQ0FEWE1zRjdDM0V6dFdaNlJ5ZjRhOVZWMkViaExIYk5pSTBxckRYSUp1RER3SnhCTEtWampRT2V0dk93?oc=5",
+        "source": "數位時代",
+        "published": "2026-07-06",
+        "title": "Claude Code 官方 52 組提示詞懶人包",
+        "desc": "整理 Anthropic 官方發布的 52 組 Claude Code 提示詞指令，涵蓋工程師、PM、設計師等不同角色的使用情境。文章分類整理各種實用指令與範例，幫助你快速上手 Claude Code 提升開發效率。",
+        "tags": [
+          "tutorial",
+          "prompt",
+          "tool"
+        ]
+      }
+    ],
+    "openai": [
+      {
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "source": "OpenAI",
+        "sub": "feature",
+        "published": "2026-06-26",
+        "title": "OpenAI 預覽次世代模型 GPT-5.6 Sol",
+        "desc": "OpenAI 發布 GPT-5.6 Sol 預覽版,這是 GPT-5 系列的最新成員,在複雜推理、長文本理解、多模態處理等能力上都有突破性進展,預計將為企業與開發者帶來更強大的 AI 應用可能。",
+        "tags": [
+          "model"
+        ]
+      },
+      {
+        "url": "https://medium.com/@lazargrr1/why-most-chatgpt-prompt-packs-are-full-of-junk-and-how-to-spot-a-clean-one-89abb8dc4f45?source=rss------chatgpt-5",
+        "source": "Medium",
+        "published": "2026-07-06",
+        "title": "如何辨識 ChatGPT 提示詞包的品質",
+        "desc": "分析市面上 ChatGPT 提示詞包常見的問題，教你識別哪些是垃圾內容、哪些真正有用。文章提供具體的評估標準與判斷方法，幫助你避開無效的提示詞包，找到真正能提升工作效率的資源。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      }
+    ],
+    "gemini": [],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://cursor.com/changelog/ios-mobile-app",
+        "source": "Cursor",
+        "sub": "feature",
+        "published": "2026-06-29",
+        "title": "Cursor 推出 iOS 行動版應用",
+        "desc": "AI 程式編輯器 Cursor 正式推出 iOS 版本,讓開發者能在 iPad 或 iPhone 上進行 AI 輔助編碼,隨時隨地檢視專案、執行程式碼補全、與 AI 對話除錯,提升行動辦公效率。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UQlJwWnlad2VrcERuUTJEUlByNHV5UUV1cXoxdHI3OTZUSzBGNTNYR295TGtfS2pZUFhxWFFRN29DMlVjbDl0V0I5TFAxdjFBQmJCVUJ2eU1PWmZaSUE?oc=5",
+        "source": "數位時代",
+        "published": "2026-07-05",
+        "title": "AI 驅動資安 SOC 轉型：自動化劇本縮短 80% 處置時間",
+        "desc": "探討如何運用 AI 技術改造雲端資安營運中心（SOC），透過自動化劇本與 AI 輔助調查，將資安事件處置時間縮短 80%。文章分享實際案例與實踐步驟，適合資安團隊參考。",
+        "tags": [
+          "tutorial",
+          "workflow"
+        ]
+      }
+    ],
+    "skipped": "刷掉 66 則官方更新(含棄用通知、企業管理、案例研究、商業合作、趨勢報告等非功能發布);刷掉 11 則教學候選(含活動招生、研習會新聞、觀點文章、非 AI 主題)"
+  },
+  {
     "date": "2026-07-05",
     "weekday": "星期日",
     "stats": {
