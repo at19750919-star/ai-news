@@ -3,6 +3,71 @@
 // 所有歷史資料均永久保留
 const AI_NEWS_DATA = [
   {
+    "date": "2026-07-10",
+    "weekday": "星期五",
+    "stats": {
+      "claude": 2,
+      "openai": 0,
+      "gemini": 0,
+      "grok": 0,
+      "news": 2
+    },
+    "claude": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uQmgzMW5SUGNxN3VQLUJmU3YtcEhCVXpyUl9aOVRMVEFDZU94NGJyVS1yV1NUMGoyY2Fycm1iamhuNVBNUlFEQjd2djFiRGRXSmRiZW14akhXdS1XZlNB?oc=5",
+        "source": "Anthropic",
+        "sub": "feature",
+        "published": "2026-07-09",
+        "title": "Claude 推出使用反思新功能",
+        "desc": "Anthropic 為 Claude 新增了「使用反思」功能,讓使用者能回顧並分析自己與 Claude 的互動方式。這項功能可協助使用者更了解自己如何運用 AI 工具,進而優化工作流程、找出更有效的提示技巧,提升整體生產力。",
+        "tags": [
+          "tool"
+        ]
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PVVQtWnZId3lUME1hcEtIQ3hCck9neGoyQVFvYlNUcUtLaF9RN0dEd0ozMEtQTXNBS2o1M2RwX0RrYkloTG9DdVI2cHNDZVpXYkM1NUx3bEVaXzNwOTJDbDNhREkxRERIS3VPdWJNZVA0Wm91bU1yYW0wbFI?oc=5",
+        "source": "數位時代",
+        "published": "2026-07-08",
+        "title": "Anthropic 工程師揭露：精簡提示詞讓 Claude 表現更佳",
+        "desc": "Anthropic 工程師分享 Claude Code 團隊的實戰經驗：刪減 80% 系統提示詞後，模型效能反而大幅提升。文章說明為何過長的提示詞會降低 AI 表現，並提供精簡提示的實務建議與最佳實踐。",
+        "tags": [
+          "tutorial",
+          "prompt"
+        ]
+      }
+    ],
+    "openai": [],
+    "gemini": [],
+    "grok": [],
+    "news": [
+      {
+        "url": "https://www.notion.so/releases/2026-07-09",
+        "source": "Notion",
+        "sub": "feature",
+        "published": "2026-07-09",
+        "title": "Notion Workers 支援團隊共享",
+        "desc": "Notion 新增 Workers 團隊共享功能,讓使用者能將自己建立的 AI 工作流(Workers)分享給整個團隊使用。團隊成員可直接套用這些預先設定好的自動化流程,無需重複設定,大幅提升協作效率與知識傳承。",
+        "tags": [
+          "tool",
+          "agent"
+        ]
+      },
+      {
+        "url": "https://www.notion.so/releases/2026-07-08",
+        "source": "Notion",
+        "sub": "feature",
+        "published": "2026-07-08",
+        "title": "Notion Agents 推出 iOS 應用",
+        "desc": "Notion 正式發布 Notion Agents iOS 應用程式,讓使用者能在 iPhone 和 iPad 上管理、執行 AI 代理。行動版支援查看代理執行狀態、接收通知、快速調整設定,讓 AI 自動化工作流不再受限於桌面環境。",
+        "tags": [
+          "tool",
+          "agent"
+        ]
+      }
+    ],
+    "skipped": "排除：人事任命 2 則、研究論文 4 則、公司動態與案例分享 6 則、活動與投資新聞 5 則、非核心 AI 更新 1 則、6 月中旬以前較舊更新約 15 則,以及 GitHub 技術性小更新約 10 則。"
+  },
+  {
     "date": "2026-07-09",
     "weekday": "星期四",
     "stats": {
